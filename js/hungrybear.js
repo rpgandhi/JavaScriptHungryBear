@@ -5,11 +5,26 @@ export class HungryBear {
     this.foodLevel = 10;
   }
 
+  // setHunger() {
+  //   setInterval(() => {
+  //     this.foodLevel--;
+  //   }, 1000);
+  //   alert("Working");
+  //   return this.foodLevel;
+  // }
+
   setHunger() {
     setInterval(() => {
       this.foodLevel--;
     }, 10000);
+    setInterval(() => {
+      return this.foodLevel
+    }, 10000);
+
+
   }
+
+
 
   // didYouGetEaten() {
   //   if (this.foodLevel > 0) {
