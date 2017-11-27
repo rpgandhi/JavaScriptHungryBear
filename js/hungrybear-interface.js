@@ -1,8 +1,12 @@
+import { HungryBear } from './../js/hungrybear.js';
+
 $(document).ready(function(){
-  // $('#signup').submit(function(event){
-  //   event.preventDefault();
-  //   var email = $('#email').val();
-  //   $('#signup').hide();
-  //   $('#solution').prepend('<p>Thank you, ' + email + ' has been added to our list!</p>');
-  // });
+  $('#blueberries').click(function(){
+    event.preventDefault();
+    alert("Working");
+    let whatever = new HungryBear;
+    whatever.eatSmall();
+    alert("Working Line5");
+    $('#outcome').append("Your bear's hunger level is: "  + whatever.foodLevel);
+  });
 });

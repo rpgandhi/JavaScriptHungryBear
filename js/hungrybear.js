@@ -38,21 +38,26 @@ export class HungryBear {
 
   eatSmall() {
     this.foodLevel +=5;
+    return this.foodLevel;
   }
 
   eatMedium() {
     this.foodLevel +=7;
+    return this.foodLevel;
   }
 
   eatBig() {
     this.foodLevel +=10;
+    return this.foodLevel;
   }
 
   eatHuman() {
     this.foodLevel +=20;
+    return this.foodLevel;
   }
 
   eatChocolateDoughnut() {
     this.foodLevel +=30;
+    return this.foodLevel;
   }
 }
