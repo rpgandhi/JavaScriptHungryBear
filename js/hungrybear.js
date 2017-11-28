@@ -16,10 +16,10 @@ export class HungryBear {
   setHunger() {
     setInterval(() => {
       this.foodLevel--;
-    }, 10000);
+    }, 1000);
     setInterval(() => {
-      return this.foodLevel
-    }, 10000);
+      return this.foodLevel;
+    }, 1000);
 
 
   }
