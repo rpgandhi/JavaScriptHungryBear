@@ -7,10 +7,11 @@ $(document).ready(function(){
   whatever.setHunger();
   $('#outcome').text(whatever.foodLevel);
 
+
   // check and display time every second!
   setInterval(function(){
     $('#outcome').text(whatever.foodLevel);
-    if (whatever.foodLevel <= 0){$("#lose").show();}
+    if (whatever.foodLevel <= 0){$("#lose").show(); $(".score-wrap").hide();}
     }, 1000);
 
 
@@ -50,13 +51,13 @@ $(document).ready(function(){
     $('#outcome').text(whatever.foodLevel);
   });
 
-  $('#mountainLion').click(function(){
+  $('#lion').click(function(){
     event.preventDefault();
     whatever.eatBig();
     $('#outcome').text(whatever.foodLevel);
   });
 
-  $('#flatTire').click(function(){
+  $('#tire').click(function(){
     event.preventDefault();
     whatever.eatBig();
     $('#outcome').text(whatever.foodLevel);
@@ -68,13 +69,13 @@ $(document).ready(function(){
     $('#outcome').text(whatever.foodLevel);
   });
 
-  $('#human').click(function(){
+  $('#cocktail').click(function(){
     event.preventDefault();
     whatever.eatHuman();
     $('#outcome').text(whatever.foodLevel);
   });
 
-  $('#chocolateD').click(function(){
+  $('#donut').click(function(){
     event.preventDefault();
     whatever.eatChocolateDoughnut();
     $('#outcome').text(whatever.foodLevel);

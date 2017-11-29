@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
@@ -8,31 +9,54 @@
     <title>Hungry Bear</title>
   </head>
   <body>
+
     <form id="hungry-bear-form">
-      <p>FEED ME!</p>
+      <div id="content">
+        <div class="content-wrap">
+          <div class="content">
+          <div class="score-wrap">
+            <p class="headline">FEED ME!</p>
+            <p class="outcome">Your bear's hunger level is:</p><p id="outcome"></p>
+          </div>
+        <div id="lose">
+          <h1>The bear ate you. You lose!</h1>
+        </div>
+          </div>
+          <img src="https://orig00.deviantart.net/4014/f/2012/327/0/3/kuma_by_keithzilla10-d5lwnb6.png" id="bear">
+        </div>
+      </div>
     <!-- Small items -->
-      <button type="button" id="blueberries" name="button">Blueberries</button>
-      <button type="button" id="fish" name="button">Fish</button>
-      <button type="button" id="leaves" name="button">Leaves</button>
-    <!-- Medium items -->
-    <button type="button" id="honey" name="button">Honey</button>
-    <button type="button" id="raccoon" name="button">Raccoon</button>
-    <button type="button" id="owl" name="button">Owl</button>
-    <!-- Big items -->
-    <button type="button" id="mountainLion" name="button">Mountain lion</button>
-    <button type="button" id="flatTire" name="button">Flat tire</button>
-    <button type="button" id="deer" name="button">Deer</button>
-    <!-- human item -->
-    <button type="button" id="human" name="button">Human</button>
-    <!-- doughnut item -->
-    <button type="button" id="chocolateD" name="button">Chocolate Doughnut</button>
+
+     <img src="http://westmorelandberryfarm.com/wp-content/uploads/2016/04/Berry-2nd-Image.png" id="blueberries">
+
+    <img src="http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Fish-PNG-Transparent-Image-7.png" id="fish">
+
+    <img src="http://www.freepngimg.com/download/green%20leaves/12-green-leaf-png.png" id="leaves">
+
+    <img src="http://www.pngpix.com/wp-content/uploads/2016/08/PNGPIX-COM-Honey-Nest-PNG-Transparent-Image.png" id="honey">
+
+    <img src="https://www.critterpricker.com/wp-content/uploads/2017/06/evilRaccoon.png" id="raccoon">
+
+    <img src="http://www.freepngimg.com/thumb/owl/7-2-owl-free-download-png-thumb.png" id="owl">
+
+    <img src="http://www.officialpsds.com/images/thumbs/cougar-psd80626.png" id="lion">
+
+    <img src="http://orca.com.ph/images/Index/Tires/Flat_Tires_Service.png" id="tire">
+
+    <img src="http://www.socialandcocktail.co.uk/wp-content/themes/socialandcocktail/img/cosmopolitan-social-and-cocktail.png" id="cocktail">
+
+    <img src="https://krispykreme.com/SharedContent/User/96/96a56be1-02b7-4f59-8cf2-160218bbacb2.png" id="donut">
+
+    <!-- <img src="https://orig00.deviantart.net/4014/f/2012/327/0/3/kuma_by_keithzilla10-d5lwnb6.png" id="bear"> -->
+
     </form>
     <br>
-    <div>
+    <!-- <div>
       <p>Your bear's hunger level is:<span id="outcome"></span></p>
-    </div>
-    <div id="lose">
+    </div> -->
+    <!-- <div id="lose">
       <h1>The bear ate you. You lose!</h1>
-    </div>
+    </div> -->
+
   </body>
 </html>

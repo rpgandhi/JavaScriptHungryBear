@@ -1,3 +1,198 @@
-/*#lose {
-  display: none;
+#lose {
+  color: white;
+  z-index: 5;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("http://www.opb.org/images/upload/c_limit,g_south,h_730,q_90,w_940/20131105_ODF_Elliott_State_Forest_q9vq42.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  /*background-color: rgba(255, 0, 0, 0.5);*/
+  margin: 100px auto;
+  height: 80%;
+  width: 80%;
+  position: relative;
+}
+
+
+
+img {
+  width: 200px;
+  position: absolute;
+}
+
+#blueberries {
+  width: 50px;
+  top: 10%;
+  left: 5%;
+  z-index: 4;
+}
+
+#fish {
+  width: 150px;
+  top: 10%;
+  left: 42%;
+  z-index: 4;
+}
+
+#leaves {
+  width: 100px;
+  top: 10%;
+  right: 5%;
+  z-index: 4;
+}
+
+#honey {
+  width: 100px;
+  top: 40%;
+  right: 5%;
+  z-index: 4;
+}
+
+#raccoon {
+  width: 150px;
+  bottom: 10%;
+  right: 5%;
+  z-index: 4;
+}
+/*move*/
+#owl {
+  width: 150px;
+  top: 24%;
+  left: 38.5%;
+  z-index: 4;
+}
+
+#lion {
+  width: 300px;
+  bottom: 10%;
+  left: 5%;
+  z-index: 4;
+}
+
+#tire {
+  width: 150px;
+  top: 40%;
+  left: 5%;
+  z-index: 4;
+}
+
+#cocktail {
+  width: 100px;
+  top: 20%;
+  left: 22%;
+  z-index: 4;
+}
+
+#donut {
+  width: 100px;
+  top: 22%;
+  right: 20%;
+  z-index: 4;
+}
+
+#bear {
+  width: 800px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 10%;
+}
+
+.content-wrap {
+  position: relative;
+  height: 600px;
+  z-index: 2;
+}
+
+#content {
+  width: 100%;
+  position: absolute;
+  bottom: -15%;
+  margin: auto;
+  z-index: 1;
+}
+
+.content {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  /*bottom: 40%;*/
+  text-align: center;
+  margin: auto;
+  left: 41%;
+  z-index: 2;
+  /*right: auto;*/
+
+}
+
+.headline {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.outcome {
+  font-size: 20px;
+  line-height: 0;
+}
+
+#outcome {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#lose h1 {
+  margin-top: 120px;
+}
+
+
+
+/*#blueberries:hover {
+  cursor: url('http://cliparting.com/wp-content/uploads/2016/05/Grizzly-bear-paw-print-clipart-free-clipart-images-3.png'), auto;
 }*/
+
+/*fish*/
+/*http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Fish-PNG-Transparent-Image-7.png*/
+
+
+/*honey
+
+http://www.pngpix.com/wp-content/uploads/2016/08/PNGPIX-COM-Honey-Nest-PNG-Transparent-Image.png*/
+
+/*raccoon
+
+https://www.critterpricker.com/wp-content/uploads/2017/06/evilRaccoon.png*/
+
+/*leaves
+http://www.freepngimg.com/download/green%20leaves/12-green-leaf-png.png*/
+
+/*owl
+http://www.freepngimg.com/thumb/owl/7-2-owl-free-download-png-thumb.png*/
+
+/*lion
+http://www.officialpsds.com/images/thumbs/cougar-psd80626.png*/
+
+/*tire
+http://orca.com.ph/images/Index/Tires/Flat_Tires_Service.png*/
+
+/*deer
+https://vignette.wikia.nocookie.net/zt2downloadlibrary/images/4/47/Red_Deer_Additional_Variants_%28Ulquiorra%294.png/revision/latest?cb=20150914185632*/
+
+/*donut
+https://krispykreme.com/SharedContent/User/96/96a56be1-02b7-4f59-8cf2-160218bbacb2.png*/
+
+/*cocktail
+http://www.socialandcocktail.co.uk/wp-content/themes/socialandcocktail/img/cosmopolitan-social-and-cocktail.png*/
